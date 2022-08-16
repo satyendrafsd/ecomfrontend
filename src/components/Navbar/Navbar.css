@@ -1,0 +1,26 @@
+.header{
+    height: 90px;
+    padding: 20px 0;
+    background-color: lightgray;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size:2rem;
+    
+}
+
+.user-actions{
+    display: flex;
+    gap:2rem;
+}
+
+.logout-btn, .login-btn{
+    cursor:pointer;
+}
+
